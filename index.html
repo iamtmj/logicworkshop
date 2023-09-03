@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="Logo.jpg">
+<title>The Logic Workshop</title>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+
+  #title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Cinzel Decorative', sans-serif;
+
+  }
+
+  #links {
+    display: flex;
+    gap: 20px;
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #00FFFF;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(255,255,255,0.2 );
+    transition: border-color 0.3s, background-color 0.3s;
+    
+  }
+
+  a:hover {
+    border-color: yellow;
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+
+  a:active {
+    border-color: green;
+    background-color: rgba(0, 128, 0, 0.2);
+  }
+  #logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px; /* Adjust the size of the logo container */
+    height: 120px; /* Adjust the size of the logo container */
+    border-radius: 50%; /* Create a circular shape */
+    background-color: #00FFFF; /* Color of the circular logo container */
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  #logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
+</head>
+<body>
+<div id="logo-container">
+<img id="logo" src="Logo.jpg" alt="Logo">
+</div>
+<div id="title">The Logic Workshop</div>
+<div id="links">
+  <a href="https://www.youtube.com/channel/UC2YRHuYuZ-vU3Y4Qh94JuUw">Videos</a>
+  <a href="https://medium.com/@officialmananjindal">Articles</a>
+</div>
+</body>
+</html>
