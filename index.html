@@ -1,86 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="Logo.jpg">
-<title>The Logic Workshop</title>
-<style>
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: black;
-    color: white;
-  }
-
-  #title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-family: 'Cinzel Decorative', sans-serif;
-
-  }
-
-  #links {
-    display: flex;
-    gap: 20px;
-  }
-
-  a {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: #00FFFF;
-    font-weight: bold;
-    border: 2px solid transparent;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border-color: white;
-    background-color: rgba(255,255,255,0.2 );
-    transition: border-color 0.3s, background-color 0.3s;
-    
-  }
-
-  a:hover {
-    border-color: yellow;
-    background-color: rgba(255, 255, 0, 0.2);
-  }
-
-  a:active {
-    border-color: green;
-    background-color: rgba(0, 128, 0, 0.2);
-  }
-  #logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px; /* Adjust the size of the logo container */
-    height: 120px; /* Adjust the size of the logo container */
-    border-radius: 50%; /* Create a circular shape */
-    background-color: #00FFFF; /* Color of the circular logo container */
-    margin-bottom: 20px;
-    overflow: hidden;
-  }
-  #logo {
-    max-width: 100%;
-    max-height: 100%;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Logo.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>TLW</title>
 </head>
 <body>
-<div id="logo-container">
-<img id="logo" src="Logo.jpg" alt="Logo">
-</div>
-<div id="title">The Logic Workshop</div>
-<div id="links">
-  <a href="https://simmer.io/@themj/projectile-motion-simulator-the-logic-workshop">Simulator</a>
-  <a href="https://medium.com/@officialmananjindal">Articles</a>
-</div>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Logic Workshop
+              
+            </h1>
+            <p class="mb-8 leading-relaxed">
+                Logic Workshop is my brainchild—an initiative aimed at bridging the gap between creativity and numbers. In the world of digits and data, creativity knows no bounds. At Logic Workshop, I'm on a mission to merge these two seemingly distinct realms using powerful tools such as animation, simulators, and storytelling.
+
+Through this venture, we're not just teaching logic and numbers; we're crafting a unique learning experience. By harnessing the potency of animation, the tangibility of simulators, and the allure of storytelling, we're creating a space where minds can flourish, curiosity can thrive, and creativity can know no boundaries.
+            </p>
+           
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded-full" alt="hero" src="Logo.jpg">
+          </div>
+        </div>
+      </section>
+      
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+        <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+      </svg>
+      <p class="leading-relaxed text-lg">Hey there! I'm Manan, a curious 17-year-old on a journey of exploration and creation. 🌟
+
+        As the founder of the Logic Workshop, I'm passionate about sharing the wonders of technology and problem-solving with fellow enthusiasts. Through interactive sessions and engaging projects, we're building a community that embraces creativity and logical thinking.
+        
+        In addition to fostering learning, I'm a firm believer in the power of coding to shape our digital world. I enjoy diving into coding challenges and bringing innovative ideas to life.
+        
+        Beyond technology, I'm captivated by the elegance of mathematics. Numbers and patterns inspire me to seek logic in the world around us.
+        
+        During moments of downtime, I indulge in mind-engaging movies like 'The Da Vinci Code'. These stories of intrigue align with my curiosity-driven mindset.</p>
+      <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+      <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Manan Jindal</h2>
+      <p class="text-gray-500">Founder</p>
+    </div>
+  </div>
+</section>
+<section class="text-gray-600 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Article</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Will AI snatch away our jobs ?</h2>
+            <p class="leading-relaxed">This question doesn’t really sit well with me. It’s kind of like asking if hiring a chef to cook for you is the same as them stealing your job as a cook....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/will-ai-snatch-away-our-jobs-b3dfd1dcd27f">View Full
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Article</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Everything is a function</h2>
+            <p class="leading-relaxed">Once upon a time, in the realm of “Dimensions,” a self-proclaimed seer made an appearance. This seer boasted the ability to predict the future....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/logic-workshop-functions-fd03b4a1164">View Full
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Article</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Diff-ere-nti-ation</h2>
+            <p class="leading-relaxed">If you’re moving from point “A” to point “B” and your speed keeps changing, calculating your speed at a specific time like 5 minutes into the journey requires breaking it down into smaller segments....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/diff-ere-nti-ation-7f31775e5921">View Full
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Article</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Dissecting quadratic equations</h2>
+            <p class="leading-relaxed">Man, have you ever been in math class, learning about quadratic equations, and felt like banging your head against the wall? Well, I’ve been there too....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/dissecting-quadratic-equations-a4ff6d96a1e8">View Full
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Article</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Behind the scenes of combinatorics?</h2>
+            <p class="leading-relaxed">In the early days of school, you must’ve encountered multiplication as a smarter way of doing repetitive addition....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/behind-the-scenes-of-combinatorics-a63045f3010b">View Full
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Article</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Royal theory of sets</h2>
+            <p class="leading-relaxed">Think about creating an imaginary boundary around your house, along with every other house in your neighborhood. Now, expand that imaginary boundary to encompass every neighborhood in your city....</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/royal-theory-of-sets-b8a69f200907">View Full
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Application</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Trader Tycoon</h2>
+            <p class="leading-relaxed">"Trader Tycoon" is an economy-focused game that challenges players to effectively oversee raw materials, personnel, and pricing strategies to optimize profits. It's a thrilling test of your business acumen and resource management skills, making it an engaging choice for anyone seeking a strategic gaming experience.</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://medium.com/@officialmananjindal/royal-theory-of-sets-b8a69f200907">Download
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+       <div class="-my-8 divide-y-2 divide-gray-100">
+        <div class="py-8 flex flex-wrap md:flex-nowrap">
+          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+            <span class="font-semibold title-font text-gray-700">Simulator</span>
+            
+          </div>
+          <div class="md:flex-grow">
+            <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Projectile Motion Simulator</h2>
+            <p class="leading-relaxed">The simulator for projectile motion</p>
+            <a class="text-indigo-500 inline-flex items-center mt-4" href="https://thelogicworkshop.itch.io/projectile-motion-simulator">Download
+              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+       </div>
+      
+       </div>
+  </section>
 </body>
 </html>
